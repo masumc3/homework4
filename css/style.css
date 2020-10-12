@@ -81,7 +81,7 @@ footer{
 display: grid;
 grid-row-gap:15px;
 grid-template-columns: 1fr 5fr 1fr;
-grid-template-rows: auto auto auto auto auto;
+/*grid-template-rows: auto auto auto auto auto;*/
 }
 
 header{
@@ -155,8 +155,8 @@ background-color: rgba(255, 255, 255, .8);
   }
 
   .container{
-    grid-template-columns: 50px auto 500px auto 50px;
-    grid-template-rows: 400px 400px 400px 400px 400px;
+    /*grid-template-columns: 50px auto 500px auto 50px;
+    grid-template-rows: 400px 400px 400px 400px 400px;*/
   }
 
   .about, .clients, .method-image, .contact-image{
@@ -175,7 +175,7 @@ preferences to reduce motion.*/
 
 @media screen and (prefers-reduced-motion: reduce){
   html{
-      scroll-behavior: auto; /* Removes scroll animation */
+      /*scroll-behavior: auto;  Removes scroll animation */
   }
 
   .skip a{
