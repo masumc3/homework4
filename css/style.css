@@ -38,6 +38,11 @@ nav li a:hover {
     text-decoration-color: black;
   }
 
+  nav li a:focus {
+      text-decoration: underline;
+      text-decoration-color: black;
+    }
+
 .skip a{
   background: white;
   left: 0;
